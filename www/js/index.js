@@ -41,7 +41,7 @@ var app = {
     if((navigator.connection.type).toUpperCase() != "NONE" &&
        (navigator.network.connection.type).toUpperCase() != "UNKNOWN") {
     //ONLINE
-    window.location.href="http://www.briefklick.de/app/?ios=1";       
+    window.location.href="https://web.whatsapp.com/";       
     } else {
     window.location.href="offline.html";
     }        
