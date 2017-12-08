@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.briefklick.de"
+        id        = "com.ndchat.application"
         version   = "1.0.5">
 
-    <name>BriefKlick</name>
+    <name>nD chat</name>
 
     <description>
-        Mit BriefKlick können Briefe einfach online in Auftrag gegeben werden.
+        Mit nD chat können einfach Nachrichten ausgetauscht werden.
     </description>
 
-    <author href="https://www.briefklick.de">
-        BriefKlick
+    <author href="https://web.whatsapp.com">
+        nD chat
     </author>
 
     <!--
