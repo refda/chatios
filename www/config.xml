@@ -53,6 +53,9 @@
     <plugin name="cordova-plugin-console" />
     <plugin name="cordova-plugin-contacts" />
         -->
+        
+        
+        <plugin name="cordova-plugin-ionic-webview" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-device-motion" />
     <plugin name="cordova-plugin-device-orientation" />
@@ -106,11 +109,13 @@
 
     </platform>
         
- <feature name="CDVWKWebViewEngine">
+<allow-navigation href="http://localhost:8080/*"/>
+<feature name="CDVWKWebViewEngine">
   <param name="ios-package" value="CDVWKWebViewEngine" />
 </feature>
 
 <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>600</string>
