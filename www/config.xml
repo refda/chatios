@@ -55,6 +55,10 @@
         -->
         
         <plugin name="org.crosswalk.engine" source="pgb" />
+        <preference name="webviewbounce" value="false" />
+<preference name="UIWebViewBounce" value="false" />
+<preference name="CrosswalkAnimatable" value="true" />
+        
         <plugin name="cordova-plugin-ionic-webview" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-device-motion" />
