@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.ndchat.application"
-        version   = "1.0.5">
+        version   = "1.0.0">
 
     <name>nD chat</name>
 
@@ -107,7 +107,7 @@
     </platform>
         
         
-        
+        <gap:plugin name="com.ludei.ios.webview.plus" source="plugins.cordova.io" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>600</string>
