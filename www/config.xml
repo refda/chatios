@@ -54,7 +54,7 @@
     <plugin name="cordova-plugin-contacts" />
         -->
         
-        
+        <plugin name="org.crosswalk.engine" source="pgb" />
         <plugin name="cordova-plugin-ionic-webview" />
     <plugin name="cordova-plugin-device" />
     <plugin name="cordova-plugin-device-motion" />
