@@ -106,13 +106,11 @@
 
     </platform>
         
-        
-       <plugin name="cordova-plugin-wkwebview" />
-    <feature name="CDVWKWebViewEngine">
-        <param name="ios-package" value="CDVWKWebViewEngine" />
-    </feature>
+ <feature name="CDVWKWebViewEngine">
+  <param name="ios-package" value="CDVWKWebViewEngine" />
+</feature>
 
-    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+<preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>600</string>
